@@ -26,7 +26,7 @@
 
 Запустить в терминале команду ```docker-compose up```
 
-В соседних вкладках запустить само приложение либо командой:
+В соседних вкладках запустить само приложение командой:
 
 ```java -jar .\artifacts\aqa-shop.jar --spring.datasource.url=jdbc:postgresql://localhost:5432/app```  БД PostgreSQL
 
@@ -34,10 +34,10 @@
  
 Запустить тесты командой
 
-```./gradle clean test.```
+```./gradlew clean test.```
 
-Для генерации отчета Allure о выполненных тестах прописываем в терминале команду:
+Для генерации отчета Allure о выполненных тестах выполнить в терминале команду:
 
-```./gradle allureServe```
+```./gradlew allureServe```
 
 
